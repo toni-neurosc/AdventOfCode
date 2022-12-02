@@ -9,7 +9,7 @@
         "-std=c++20",
         "${fileDirname}/*.cpp",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
+        "${workspaceFolder}/binaries/${fileBasenameNoExtension}"
       ],
       "options": {
         "cwd": "${fileDirname}"
@@ -25,9 +25,9 @@
       "args": [
         "-g",
         "-std=c++20",
-        "${workspaceFolder}/*.cpp",
+        "${fileDirname}/*.cpp",
         "-o",
-        "${fileDirname}/rooster"
+        "${workspaceFolder}/binaries/${fileBasenameNoExtension}"
       ],
       "options": {
         "cwd": "${fileDirname}"
