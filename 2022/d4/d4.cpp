@@ -1,9 +1,6 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include <numeric>
-#include <algorithm>
-#include <iterator>
 #include "../include/utils.h"
 
 using namespace std;
@@ -43,11 +40,7 @@ int main (int argc, char **argv)
         {
             result2++;
         }
-
-
     }
-
-
     cout << "Solution to Part 1: " << result1 << endl
          << "Solution to Part 2: " << result2;
 
