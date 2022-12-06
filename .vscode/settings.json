@@ -45,6 +45,14 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "ranges": "cpp",
+        "__locale": "cpp",
+        "span": "cpp",
+        "__bit_reference": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "regex": "cpp",
+        "__node_handle": "cpp"
     }
 }
