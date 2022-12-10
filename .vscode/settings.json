@@ -53,6 +53,11 @@
         "__hash_table": "cpp",
         "__split_buffer": "cpp",
         "regex": "cpp",
-        "__node_handle": "cpp"
+        "__node_handle": "cpp",
+        "ratio": "cpp",
+        "sstream": "cpp",
+        "bitset": "cpp",
+        "set": "cpp",
+        "chrono": "cpp"
     }
 }
