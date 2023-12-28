@@ -58,6 +58,18 @@
         "sstream": "cpp",
         "bitset": "cpp",
         "set": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "queue": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "mutex": "cpp",
+        "__bits": "cpp",
+        "__config": "cpp",
+        "__debug": "cpp",
+        "__tuple": "cpp",
+        "__verbose_abort": "cpp",
+        "ios": "cpp",
+        "locale": "cpp",
+        "thread": "cpp"
     }
 }

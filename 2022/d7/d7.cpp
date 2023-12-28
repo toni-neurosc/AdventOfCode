@@ -60,7 +60,7 @@ int main (int argc, char **argv)
                 }
             }
         } else {
-            int delimPos = line.find_first_of(" ");
+            int delimPos = line.find(" ");
             string size = line.substr(0, delimPos);
             string content = line.substr(delimPos+1);
             array<string,2> entry {size,content};

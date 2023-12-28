@@ -20,7 +20,7 @@ int findMarker_slow(string message, int len, int* iterCount)
     For my input, takes 48034 iterations
 */
 {
-    int position;
+    int position = 0;
     for (int i = 0; i < message.length() - len; i++)
     {
         string ss = message.substr(i, len);
@@ -51,7 +51,7 @@ int findMarker(string message, int len, int* iterCount)
     new character is not already in the string. If it's already in it, the start of 
     the window jumps to right after the repeated character, discarding all 
     preceding characters and saving a lot of processing. 
-    Stops when desired length is reached. Could also use std::find_first_of
+    Stops when desired length is reached. Could also use std::find
     for code simplicity, but this is probably more efficient
 
     Worst case complexity O(N*M) if I'm not mistaken, but average case much better.
